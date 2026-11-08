@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>내 삶의 무게, 청년 정책이 덜어줬죠 | K-공감 커버스토리</title>
+<meta name="description" content="청년들, 직접 체감한 청년정책을 말하다 — K-공감 커버스토리">
+<meta property="og:type" content="article">
+<meta property="og:title" content="내 삶의 무게, 청년 정책이 덜어줬죠">
+<meta property="og:description" content="청년들, 직접 체감한 청년정책을 말하다 — K-공감 커버스토리">
+<meta property="og:image" content="assets/img/hero.jpg">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/PretendardGOV-Regular.subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/PretendardGOV-Bold.subset.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Pretendard GOV";font-weight:300;font-display:swap;src:url(assets/fonts/PretendardGOV-Light.subset.woff2) format("woff2")}
+@font-face{font-family:"Pretendard GOV";font-weight:400;font-display:swap;src:url(assets/fonts/PretendardGOV-Regular.subset.woff2) format("woff2")}
+@font-face{font-family:"Pretendard GOV";font-weight:500;font-display:swap;src:url(assets/fonts/PretendardGOV-Medium.subset.woff2) format("woff2")}
+@font-face{font-family:"Pretendard GOV";font-weight:600;font-display:swap;src:url(assets/fonts/PretendardGOV-SemiBold.subset.woff2) format("woff2")}
+@font-face{font-family:"Pretendard GOV";font-weight:700;font-display:swap;src:url(assets/fonts/PretendardGOV-Bold.subset.woff2) format("woff2")}
+@font-face{font-family:"Pretendard GOV";font-weight:800;font-display:swap;src:url(assets/fonts/PretendardGOV-ExtraBold.subset.woff2) format("woff2")}
+:root{
+  --cyan:#00A0E9;--cyan-700:#006FA3;--ink:#17191C;--ink-2:#4A4F56;--ink-3:#6B7078;
+  --line:#D9DBDE;--ph:#EAEAEA;--muted:#BFC2C7;--logo:#231F20;
+  --m:24px;--header:64px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:calc(var(--header) + 3px)}
+html.rec{scroll-behavior:auto}
+body{font-family:"Pretendard GOV","Pretendard",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;color:var(--ink);background:#f1f2f3;word-break:keep-all;overflow-wrap:break-word;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+.app{max-width:480px;margin:0 auto;background:#fff;min-height:100vh;position:relative}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+img{display:block;max-width:100%}
+
+/* header */
+.top{position:sticky;top:0;z-index:20;background:#fff}
+.hdr{height:var(--header);display:flex;align-items:center;justify-content:space-between;padding:0 var(--m)}
+.hdr .logo{display:block;height:30px;width:auto}
+.hdr .logo svg{height:30px;width:auto;display:block}
+.icon-btn{width:40px;height:40px;margin-right:-8px;display:grid;place-items:center;border-radius:20px}
+.icon-btn svg{width:24px;height:24px}
+.progress{height:3px;background:var(--ph);overflow:hidden}
+.progress i{display:block;height:100%;width:100%;background:var(--cyan);transform-origin:0 50%;transform:scaleX(0)}
+
+/* hero */
+.hero{position:relative;aspect-ratio:412/500;overflow:hidden;background:#2a2c30;color:#fff}
+.hero .ph-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero.shade::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 65%,rgba(0,0,0,1) 100%)}
+.hero .txt{position:absolute;left:var(--m);right:var(--m);bottom:24px;z-index:1}
+.tag{display:inline-block;font-size:11px;line-height:14px;font-weight:700;letter-spacing:.02em;padding:5px 12px;border:1px solid currentColor;border-radius:999px}
+.hero h1{margin-top:18px;font-size:32px;line-height:46px;font-weight:800;letter-spacing:-.015em}
+.hero p{margin-top:4px;font-size:14px;line-height:24px;font-weight:500;letter-spacing:-.005em;opacity:.92}
+.cap{padding:8px var(--m) 0;font-size:12px;line-height:18px;color:var(--ink-3)}
+
+/* sections */
+.sec{padding-top:54px}
+.sec:first-of-type{padding-top:54px}
+.media{width:100%;background:var(--ph);overflow:hidden}
+.media img{width:100%;height:100%;object-fit:cover}
+.fig{margin-bottom:32px}
+.fig.mid{margin:32px 0}
+.shd{padding:0 var(--m);margin-bottom:32px}
+.shd .k{display:flex;align-items:center;gap:12px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.04em;color:var(--cyan-700)}
+.shd .k::after{content:"";flex:1;height:1px;background:var(--ink)}
+.shd h2{margin-top:12px;font-size:22px;line-height:32px;font-weight:700;letter-spacing:-.01em}
+.body{padding:0 var(--m)}
+.body p{font-size:16px;line-height:28px;letter-spacing:-.003em;color:var(--ink)}
+.body p+p{margin-top:20px}
+.gap{height:32px}
+.chip-row{padding:32px var(--m) 0}
+.chip{display:inline-flex;align-items:center;gap:4px;height:38px;padding:0 12px;border:1px solid var(--cyan);border-radius:2px;font-size:13px;line-height:20px;font-weight:600;color:var(--cyan-700);transition:background .2s}
+.chip svg{width:16px;height:16px}
+.chip:active,.chip.pressed{background:#E8F6FD}
+
+/* carousel */
+.car{margin-top:32px;padding:27px 0 40px}
+.car .kick{padding:0 var(--m);font-size:12px;line-height:16px;font-weight:700;color:var(--cyan-700)}
+.car .kick::before{content:"";display:block;width:32px;height:3px;background:var(--cyan);margin-bottom:10px;margin-top:-13px}
+.car h3{padding:8px var(--m) 0;font-size:22px;line-height:32px;font-weight:700;letter-spacing:-.01em}
+.track{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--m);padding:28px var(--m) 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.track::-webkit-scrollbar{display:none}
+html.rec .track{scroll-snap-type:none}
+.track::after{content:"";flex:0 0 1px}
+.card{flex:0 0 min(320px,calc(100% - 92px));min-height:416px;scroll-snap-align:start;position:relative;overflow:hidden;border:1px solid var(--line);border-top:0;background:#fff;display:flex;flex-direction:column;padding:24px 24px 24px}
+.card::before{content:"";position:absolute;left:-1px;right:-1px;top:0;height:4px;background:var(--cyan)}
+.card .rings{position:absolute;right:-70px;top:36px;width:220px;height:220px;pointer-events:none;opacity:.35}
+.card .rings i{position:absolute;border:1px solid var(--cyan);border-radius:50%}
+.card .rings i:first-child{inset:0}.card .rings i:last-child{inset:40px}
+.card .row1{display:flex;justify-content:space-between;align-items:flex-start;position:relative}
+.card .num{font-size:40px;line-height:48px;font-weight:700;color:var(--cyan);letter-spacing:-.02em}
+.card .num small{font-size:13px;line-height:20px;font-weight:500;color:var(--ink-3);margin-left:6px;letter-spacing:0}
+.card .pill{font-size:11px;line-height:14px;font-weight:700;color:var(--cyan-700);border:1px solid var(--cyan);border-radius:999px;padding:6px 12px;background:#fff}
+.card .t{margin-top:auto;font-size:20px;line-height:28px;font-weight:700;letter-spacing:-.025em;position:relative}
+.card .d{margin-top:8px;font-size:14px;line-height:22px;color:var(--ink-2);position:relative}
+.card .ref{margin-top:12px;display:inline-flex;align-items:center;gap:4px;font-size:13px;line-height:20px;font-weight:600;color:var(--cyan-700);position:relative}
+.card .ref svg{width:14px;height:14px}
+.card .foot{margin-top:24px;padding-top:16px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600;position:relative}
+.card .go{width:40px;height:40px;border-radius:20px;background:var(--cyan);display:grid;place-items:center;transition:transform .2s}
+.card .go svg{width:20px;height:20px}
+.card .go.pressed,.card .go:active{transform:scale(.9)}
+.dots{display:flex;justify-content:center;gap:6px;margin-top:24px}
+.dots button{width:6px;height:6px;border-radius:3px;background:var(--muted);transition:width .3s var(--ease),background .3s}
+.dots button.on{width:20px;background:var(--cyan)}
+
+/* footer */
+.foot-main{padding:40px var(--m) 40px}
+.foot-main .acts{display:flex;justify-content:space-between;align-items:center}
+.foot-main .acts button{display:inline-flex;align-items:center;gap:8px;font-size:13px;line-height:20px;font-weight:600;padding:2px 0}
+.foot-main .acts svg{width:24px;height:24px}
+.foot-main hr{border:0;height:1px;background:var(--line);margin:20px 0}
+.foot-main .credit{font-size:13px;line-height:20px;font-weight:500;color:var(--ink-3)}
+.pressed-txt{color:var(--cyan-700)!important}
+
+/* menu */
+.menu{position:fixed;inset:0;z-index:40;pointer-events:none}
+.menu .sheet{position:absolute;inset:0;max-width:480px;margin:0 auto;background:#fff;opacity:0;transform:translateY(12px);transition:opacity .25s var(--ease),transform .3s var(--ease);overflow-y:auto}
+.menu.open{pointer-events:auto}
+.menu.open .sheet{opacity:1;transform:none}
+.menu .mh{height:var(--header);display:flex;align-items:center;justify-content:space-between;padding:0 var(--m)}
+.menu .mh b{font-size:22px;font-weight:700;letter-spacing:-.01em}
+.menu .ctx{padding:8px var(--m) 20px;border-bottom:1px solid var(--ink);margin:0 var(--m);padding-left:0;padding-right:0}
+.menu .ctx .k{font-size:11px;font-weight:700;color:var(--cyan-700);letter-spacing:.02em}
+.menu .ctx p{margin-top:6px;font-size:13px;line-height:20px;color:var(--ink-2)}
+.menu ol{list-style:none;margin:0 var(--m)}
+.menu li a,.menu .extra a,.menu .extra button{display:flex;align-items:center;gap:16px;min-height:56px;border-bottom:1px solid var(--line);font-size:15px;line-height:22px;font-weight:500;letter-spacing:-.003em;width:100%;text-align:left}
+.menu li .n{font-size:12px;font-weight:700;color:var(--ink-3);letter-spacing:.04em;width:16px}
+.menu li .tt{flex:1}
+.menu li a svg,.menu .extra svg{width:22px;height:22px;flex:none}
+.menu li a.on,.menu li a.on .n{color:var(--cyan-700)}
+.menu li a.on svg path{stroke:var(--cyan)}
+.menu li a.pressed{background:#F6F7F8}
+.menu .extra{margin:28px var(--m) 40px;border-top:1px solid var(--ink)}
+.menu .extra .tt{flex:1}
+
+/* toast */
+.toast{position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);background:var(--ink);color:#fff;font-size:13px;font-weight:500;padding:10px 16px;border-radius:999px;opacity:0;transition:.3s var(--ease);z-index:60;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* intro */
+.intro{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:#fff}
+.intro .lg{width:min(58vw,240px);will-change:transform}
+.intro svg{width:100%;height:auto;display:block;overflow:visible}
+.intro svg .pc{transform-box:fill-box;fill:var(--logo)}
+.intro .skip{position:absolute;bottom:max(28px,env(safe-area-inset-bottom));left:0;right:0;text-align:center;font-size:12px;color:var(--ink-3);opacity:0}
+.hide-logo .hdr .logo{opacity:0}
+.no-js .intro{display:none}
+
+/* record-mode touch indicator */
+.touch{position:fixed;z-index:200;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:rgba(23,25,28,.22);border:2px solid rgba(255,255,255,.85);box-shadow:0 2px 10px rgba(0,0,0,.18);pointer-events:none;opacity:0}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body class="hide-logo">
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="lg" id="introLogo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="30 22 511 188" role="img" aria-label="K-공감"><path class="pc" data-p="kchev" d="M74.08,109.49l49.18,49.18,15.38-15.38-42.78-42.78c-3.54-3.54-3.54-9.27,0-12.81l42.78-42.78-15.38-15.38-49.18,49.18h0c-8.49,8.49-8.49,22.26,0,30.75h0Z"/><rect class="pc" data-p="kbar" x="35.08" y="34.01" width="22.1" height="124.7"/><path class="pc" data-p="g1" d="M302.02,27.45h-66.61v20.82h57.94c4.79,0,8.68,3.88,8.68,8.68v57.94h20.82V48.27h0c0-11.5-9.32-20.82-20.82-20.82h0Z"/><path class="pc" data-p="g2" d="M269.1,138.2v-66.61h-20.82v57.94c0,4.79-3.88,8.68-8.68,8.68h-57.94v20.82h66.61c11.5,0,20.82-9.32,20.82-20.82h0Z"/><path class="pc" data-p="g3" d="M339.89,113.51c-25.14,0-45.52,20.38-45.52,45.52s20.38,45.52,45.52,45.52,45.52-20.38,45.52-45.52-20.38-45.52-45.52-45.52ZM339.89,183.83c-13.7,0-24.8-11.1-24.8-24.8s11.1-24.8,24.8-24.8,24.8,11.1,24.8,24.8-11.1,24.8-24.8,24.8Z"/><path class="pc" data-p="m1" d="M450.64,48.7v66.61h20.82v-57.94c0-4.79,3.88-8.68,8.68-8.68h57.94v-20.82h-66.61c-11.5,0-20.82,9.32-20.82,20.82h0Z"/><path class="pc" data-p="m2" d="M406.42,27.45h-66.61v20.82h57.94c4.79,0,8.68,3.88,8.68,8.68v57.94h20.82V48.27h0c0-11.5-9.32-20.82-20.82-20.82h0Z"/><path class="pc" data-p="m3" d="M450.64,114.99v85.35h85.35v-85.35h-85.35ZM515.02,179.37h-43.4v-43.4h43.4v43.4Z"/></svg></div>
+  <div class="skip" id="introSkip">화면을 누르면 바로 시작해요</div>
+</div>
+
+<div class="app" id="app">
+  <div class="top" id="top">
+    <header class="hdr">
+      <a class="logo" href="#" aria-label="K-공감" id="hdrLogo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="30 22 511 188" fill="#231F20" role="img" aria-label="K-공감"><path d="M74.08,109.49l49.18,49.18,15.38-15.38-42.78-42.78c-3.54-3.54-3.54-9.27,0-12.81l42.78-42.78-15.38-15.38-49.18,49.18h0c-8.49,8.49-8.49,22.26,0,30.75h0Z"/><rect x="35.08" y="34.01" width="22.1" height="124.7"/><path d="M302.02,27.45h-66.61v20.82h57.94c4.79,0,8.68,3.88,8.68,8.68v57.94h20.82V48.27h0c0-11.5-9.32-20.82-20.82-20.82h0Z"/><path d="M269.1,138.2v-66.61h-20.82v57.94c0,4.79-3.88,8.68-8.68,8.68h-57.94v20.82h66.61c11.5,0,20.82-9.32,20.82-20.82h0Z"/><path d="M339.89,113.51c-25.14,0-45.52,20.38-45.52,45.52s20.38,45.52,45.52,45.52,45.52-20.38,45.52-45.52-20.38-45.52-45.52-45.52ZM339.89,183.83c-13.7,0-24.8-11.1-24.8-24.8s11.1-24.8,24.8-24.8,24.8,11.1,24.8,24.8-11.1,24.8-24.8,24.8Z"/><path d="M450.64,48.7v66.61h20.82v-57.94c0-4.79,3.88-8.68,8.68-8.68h57.94v-20.82h-66.61c-11.5,0-20.82,9.32-20.82,20.82h0Z"/><path d="M406.42,27.45h-66.61v20.82h57.94c4.79,0,8.68,3.88,8.68,8.68v57.94h20.82V48.27h0c0-11.5-9.32-20.82-20.82-20.82h0Z"/><path d="M450.64,114.99v85.35h85.35v-85.35h-85.35ZM515.02,179.37h-43.4v-43.4h43.4v43.4Z"/></svg></a>
+      <button class="icon-btn" id="menuBtn" aria-label="목차 열기" aria-expanded="false" aria-controls="menu">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M9 6h11M9 12h11M9 18h11" stroke="#17191C" stroke-width="1.8" stroke-linecap="round"/><circle cx="4.5" cy="6" r="1.3" fill="#17191C"/><circle cx="4.5" cy="12" r="1.3" fill="#17191C"/><circle cx="4.5" cy="18" r="1.3" fill="#17191C"/></svg>
+      </button>
+    </header>
+    <div class="progress" aria-hidden="true"><i id="prog"></i></div>
+  </div>
+
+  <main id="article">
+<section class="hero-wrap"><div class="hero shade"><img class="ph-img" src="assets/img/hero.jpg" alt="연극 배우 이다해 씨가 청주 예술의전당에서 포즈를 취하고 있다." fetchpriority="high"><div class="txt"><span class="tag">커버스토리</span><h1>내 삶의 무게,<br>청년 정책이 덜어줬죠</h1><p>청년들, 직접 체감한 청년정책을 말하다</p></div></div><p class="cap">연극 배우 이다해 씨가 청주 예술의전당에서 포즈를 취하고 있다.</p></section>
+<section class="sec" id="s1"><div class="shd"><div class="k">01</div></div><div class="body"><p>지난해 10월 충북 청주 예술의전당에서 만난 배우 이다해 씨(34)는 “2027년 1월 1일 실직자가 된다”고 말했다. 충북도립극단 시즌단원으로 3년 계약이 2026년 종료됐다. 하지만 그의 표정은 밝았다. 2027년 그는 1인 창작극을 만들 예정이다. K-아트 청년 창작자 지원사업 에 선정돼 지난해에 이어 올해 900만 원을 지원받는다. 그는 “예술인들 스스로 하고 싶은 작품에 대한 계획을 세우고, 국가의 지원을 받으며 이를 추진해 볼 수 있는 기회”라고 했다.</p><p>올해로 연기 활동 12년 차. 크고 작은 부상으로 원치 않는 공백기도 부지기수였다. 2020년 그는 공연 연습을 하다 발가락이 골절됐다. 연일 폭우가 쏟아지던 그해 여름, 에어컨이 없어 높은 습도에 들뜬 임시 매트의 잘려나간 이음매에 발이 끼었다. 핀을 박는 수술을 해야 했다.</p><p>그는 한국예술인복지재단(www.kawf.kr)을 통해 상해 사고 청구 관련 상담을 받았다. 그 결과 수술비 전액과 요양·휴업급여 등을 지급받았다. 한국예술인복지재단은 이 씨와 같은 예술인의 산재보험 가입 시 정보 부족을 해소하고 행정 처리를 돕기 위해 보험사무를 대행한다. 또 분기별로 납부보험료의 50% 환급을 지원하고 있다. 재단에 따르면 지난해 10월 기준 예술인산재보험(wci.kawf.kr) 누적 가입자는 1만 9014명으로, 올해에만 3859명이 예술인산재보험에 신규 가입했다.</p><p>삶의 무게는 저마다 다르다. 나이에 따라, 사는 곳에 따라, 진로에 따라, 부모의 자산에 따라 제각각이다. 정부는 각자에게 알맞은 방식으로 손을 내밀어 그 무게를 덜어준다. 한 아이를 키우는 데 온 마을이 필요하듯, 한 청년이 사회에 첫발을 내딛는 데는 다양한 지원이 필요하다.</p></div><div class="chip-row"><a class="chip" href="#cards" data-card="0">K-아트 청년 창작자 지원사업 보기<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#00A0E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></section>
+<section class="sec" id="s2"><figure class="fig"><div class="media" style="aspect-ratio:412/275"><img src="assets/img/s2.jpg" alt="사진" loading="lazy" decoding="async"></div></figure><div class="shd"><div class="k">02</div><h2>입을 옷, 먹을 밥, 살 집 걱정 없도록</h2></div><div class="body"><p>전남광주에서 나고 자란 심 모 씨는 스무 살이 되던 해에 건축 현장에서 무게 20㎏짜리 합판을 날랐다. “저처럼 대학 학비는 벌어야 하는데 아무런 기술이 없는 사람이 하는 일이죠. 다음 날 근육통은 당연하고요.” 공사 현장뿐만 아니라 카페, 레스토랑, 백화점, 헬스장 등 아르바이트를 거쳤다. 버팀목이 된 건 한국장학재단(www.kosaf.go.kr)의 국가장학금과 생활비대출이었다. 졸업 전 3학기에는 교내에서 국가근로장학생으로 일했다. 대학생에게 학자금 마련을 위한 근로 기회를 제공하고 그에 따른 대가를 현금 으로 지급하는 제도다. ‘내 공부’를 하기 정말 좋은 기회였다.</p><p>올해 30세인 그는 3년간 다니던 제약회사를 그만둔 뒤 재취업을 준비 중이다. 국민취업지원제도를 통해 월 60만 원씩 구직촉진수당 등을 지원받고 있다. 2021년 도입된 국민취업지원제도는 2025년 12월 말까지 163만여 명에게 심층 상담 및 맞춤형 취업지원 서비스를 제공했다. 주거 걱정은 한국토지주택공사(LH) 청년전세임대를 통해 덜었다. 그는 이 제도를 통해 집을 구해 6년째 거주 중이다.</p><p>주거난이 심각한 서울의 청년들에게 ‘살 곳’은 더욱 절실하다. 경남 양산에서 태어나 고려대를 졸업한 강윤희 씨(27)는 기숙사 퇴소를 앞두고 고민이 많았다. 학교 앞 오피스텔은 턱없이 비쌌다. 그는 현재 월 18만 원을 내고 서울 강북구 소재 행복주택에 살고 있다. “아르바이트를 해도 월세가 80만 원이면 너무 소모적인 인생이 될 거 같은 거예요. (행복주택 거주가 가능한) 기간이 끝나면 서울에서 어떻게 살 수 있을까 싶어요.”</p><p>강 씨는 최근에만 면접을 세 차례 봤다 면접용 정장을 구입하려면 비용이 적지 않게 들지만, 그는 서울시 취업날개 서비스를 통해 정장과 구두를 빌린다. 연 10회까지 전액 무료다.</p></div><div class="chip-row"><a class="chip" href="#cards" data-card="1">LH 청년전세임대 보기<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#00A0E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></section>
+<section class="sec" id="s3"><figure class="fig"><div class="media" style="aspect-ratio:412/232"><img src="assets/img/han.jpg" alt="한재웅 대표가 경북 상주의 스마트팜 농장에서 수확을 앞둔 오이를 살펴보고 있다." loading="lazy" decoding="async"></div><p class="cap">한재웅 대표가 경북 상주의 스마트팜 농장에서 수확을 앞둔 오이를 살펴보고 있다.</p></figure><div class="shd"><div class="k">03</div><h2>청년의 변신은 무죄</h2></div><div class="body"><p>경북 상주 스마트팜에서 백다다기오이를 기르는 한재웅 씨(34)는 출하량이 많은 날은 하루에 50개들이 상자 100개를 판다. 서울 토박이였던 그가 처음 상주 땅을 밟은 건 26세 때였다. 서울시가 기초자치단체 24곳과 협력해 청년들이 지역에 뿌리내릴 수 있도록 돕는 사업인 ‘넥스트로컬’(seoulnextlocal.co.kr)을 통해서였다.</p><p>초기에는 임금을 떼이고 지원금을 뜯기기도 했다. “고작 27세였으니까요. 30세까지는 부딪치며 실패해 보는 것도 괜찮지 않을까 생각했어요.” 그는 농장에서 이주노동자들과 함께 일하며 땅과 흙을 배웠다. 서울시와 상주시 담당자들은 합심해 도움의 손길을 건넸다. 서울시에선 그가 상주시와 소통할 수 있도록 자리를 마련해 줬고, 상주시에선 청년 지원사업이 있으면 “이거 신청했느냐”며 먼저 연락해 왔다. 그는 “그때 저를 도와준 상주시 주임, 팀장님이 어느새 과장, 국장님이 됐다”며 웃었다.</p></div><figure class="fig mid"><div class="media" style="aspect-ratio:412/319"><img src="assets/img/lim.jpg" alt="전남광주 강진군 병영군 라라잇 레스토랑에서 임고은 대표가 여주 피클을 들어 보이고 있다." loading="lazy" decoding="async"></div><p class="cap">전남광주 강진군 병영군 라라잇 레스토랑에서 임고은 대표가 여주 피클을 들어 보이고 있다.</p></figure><div class="body"><p>전남광주 강진군 병영시장에서 레스토랑 ‘라라잇’을 운영 중인 임고은 씨(37)는 한때 밴드 멤버로 음반을 내고 지상파 경연대회에도 두 시즌 출연했다. 예능인으로 생계유지는 쉽지 않았다. 학원강사와 디자인강사로 먼 길을 돌아 넥스트로컬 사업에 지원해 지금의 삶에 이르렀다. 강진군이 국비 5000만~6000만 원을 들여 리모델링한 청년점포는 그의 일터가 됐고, 강진군이 빈집을 고쳐 공급한 월세 1만 원짜리 주택은 보금자리가 됐다. 강진에 내려온 지 3년이 된 지금 레스토랑은 입소문을 타며 현재 예약제로 운영되고 있다. “쳇바퀴 돌듯 하루를 버텼던 삶인데, 이젠 내일을 기다리는 삶으로 바뀌었어요.”</p></div></section>
+<section class="sec" id="s4"><div class="shd"><div class="k">04</div><h2>정책, 청년에게 더 가까이</h2></div><div class="body"><p>2026년 기준 중앙정부 및 지방자치단체(17개 시도)의 청년정책 시행계획을 전수조사한 결과, 총 1959개 (중앙정부 389개, 지자체 1570개) 사업으로 집계됐다. 다양한 청년정책은 청년들에게 실질적인 지원과 기회를 제공할 뿐만 아니라 ‘노력하면 되는 사회’라는 신뢰를 조성한다. 방송사에서 기술 엔지니어로 일하는 신 모 씨는 “출발선은 (사람마다) 다를 수 있지만 국가에서 해 주는 지원이 찾아보면 매우 많다”며 “본인 의지만 있으면 성공할 수 있는 사회”라고 말했다.</p></div><div class="gap"></div><div class="body"><p>관건은 전달이다. 도움이 필요한 청년들이 정부 및 지자체에서 어떤 청년정책을 펼치는지 알고, 그중 자신에게 알맞은 제도를 이용할 수 있도록 해야 한다. 지난해 8월 이재명 대통령 주재로 청와대에서 열린 ‘청년정책 대전환을 위한 청년정책 전문가 간담회’에서도 정부의 청년정책이 방대한 규모로 이뤄지고 있음에도 청년들의 체감도가 낮다는 지적이 공통적으로 제기됐다.</p><p>누리소통망(SNS)은 효과적인 연결 채널로 손꼽힌다. 치위생사 김다현 씨(가명)는 “청년미래적금 같은 정책 정보를 인스타그램만 해도 알아서 알려줘 SNS가 도움이 된다”고 말했다. 중견 여행사에서 일하는 박지민 씨는 “(국민취업지원제도) 구직촉진수당을 엑스(X)에서 보고 신청했다. 금전적으로 도움이 됐다”고 말했다.</p></div><div class="chip-row"><a class="chip" href="#cards" data-card="2">청년미래적금 보기<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#00A0E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div><figure class="fig mid"><div class="media" style="aspect-ratio:412/515"><img src="assets/img/jo.jpg" alt="돌고돌아성북천 대표 조정묵씨가 사진을 찍고 있다." loading="lazy" decoding="async"></div><p class="cap">돌고돌아성북천 대표 조정묵씨가 사진을 찍고 있다.</p></figure><div class="body"><p>인스타그램으로 접한 정보가 진로 변경에 결정적 계기가 된 사례도 있다. 돌고돌아성북천 대표 조정묵 씨(29)는 마케터로 일하다 지난해 퇴사 후 창업을 했다. 로컬브랜드 상권 지역가치창업가(로컬인서울) 사업 참가자로 선정돼 받은 3000만 원이 그에게 ‘비빌 언덕’이 됐다.</p><p>“사실 엄청난 확신을 가지고 (창업을) 했던 것은 아니에요. 지원금 3000만 원으로 ‘당장 먹고살 수는 있겠다’ 싶었어요. 한번 도전해 보자 싶었습니다.” 그는 이 사업을 로컬인서울 인스타그램 공식 계정 (@localinseoul/)의 게시글을 통해 알게 됐다.</p></div></section>
+<section class="sec" id="s5"><div class="shd"><div class="k">05</div><h2>오늘의 청년, 내일의 국가를 만든다</h2></div><div class="body"><p>청년정책은 청년들이 오늘과는 다른 내일을 꿈꾸게 한다. 더 나은 내일에 대한 희망을 꺾지 않은 청년들은 더 나은 국가를 만드는 사회구성원으로 성장한다. 국민취업지원제도를 통해 받은 수당을 면접 교통·숙박비로 쓴 정의석 씨는 반도체 대기업 생산설비에서 근무 중이고, 국가장학금을 받은 손병우 씨는 방산기업 생산 현장에서 인턴으로 일하고 있다.</p><p>청년정책은 오늘을 버티게 하는 최후의 안전망이 되기도 했다. 범죄 피해 뒤 트라우마를 겪던 유다희 씨는 국가 지원으로 심리상담을 받았고, 현재 종교 상품을 판매하는 회사에서 디자이너로 일하고 있다. 5년 넘는 은둔 생활과 아버지의 언어폭력으로 우울증을 겪은 박예솔 씨(가명)는 청년센터에서 심리상담과 함께 관련 프로그램도 지원받았다. 그는 “덕분에 27세 무렵 처음 사회에 발을 내디뎠고, 이 과정에서 좋은 사람을 만나 결혼도 하게 됐다”고 했다.</p></div><section class="car" id="cards" aria-label="한눈에 보는 청년정책"><div class="kick">청년정책 카드</div><h3>한눈에 보는 청년정책</h3><div class="track" id="track"><article class="card" aria-roledescription="slide" aria-label="1 / 3"><div class="rings"><i></i><i></i></div><div class="row1"><div class="num">01<small>/ 03</small></div><span class="pill">청년정책</span></div><h4 class="t">K-아트 청년 창작자 지원사업</h4><p class="d">청년 예술창작자 누구나 연간 900만원 (상반기 400만원, 하반기 500만원) 지원</p><a class="ref" href="https://artnuri.or.kr" target="_blank" rel="noopener">아트누리(artnuri.or.kr) 참조<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M18 14v5H5V6h5" stroke="#00A0E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="foot" href="https://artnuri.or.kr" target="_blank" rel="noopener"><span>자세히 보기</span><span class="go"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></article><article class="card" aria-roledescription="slide" aria-label="2 / 3"><div class="rings"><i></i><i></i></div><div class="row1"><div class="num">02<small>/ 03</small></div><span class="pill">청년정책</span></div><h4 class="t">LH 청년전세임대</h4><p class="d">무주택자인 청년(혼인 중 제외) LH가 기존주택을 전세 계약해 저렴하게 재임대</p><a class="ref" href="https://apply.lh.or.kr" target="_blank" rel="noopener">LH청약플러스 (apply.lh.or.kr) 참조<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M18 14v5H5V6h5" stroke="#00A0E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="foot" href="https://apply.lh.or.kr" target="_blank" rel="noopener"><span>자세히 보기</span><span class="go"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></article><article class="card" aria-roledescription="slide" aria-label="3 / 3"><div class="rings"><i></i><i></i></div><div class="row1"><div class="num">03<small>/ 03</small></div><span class="pill">청년정책</span></div><h4 class="t">청년미래적금</h4><p class="d">청년 누구나(올해 소득 기준 폐지) 자유적립식 적금, 정부 기여금 및 비과세 혜택 제공</p><a class="ref" href="https://kinfa.or.kr" target="_blank" rel="noopener">서민금융진흥원(kinfa.or.kr) 참조<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M18 14v5H5V6h5" stroke="#00A0E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="foot" href="https://kinfa.or.kr" target="_blank" rel="noopener"><span>자세히 보기</span><span class="go"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></article></div><div class="dots" id="dots"><button type="button" aria-label="1번 카드" class="on"></button><button type="button" aria-label="2번 카드"></button><button type="button" aria-label="3번 카드"></button></div></section></section>
+  </main>
+
+  <footer class="foot-main" id="footer">
+    <div class="acts">
+      <button id="shareBtn" type="button"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12M7 8l5-5 5 5M5 13v7h14v-7" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>공유하기</button>
+      <button id="toTop" type="button">맨 위로</button>
+    </div>
+    <hr>
+    <div class="credit">K-공감</div>
+  </footer>
+</div>
+
+<nav class="menu" id="menu" aria-hidden="true">
+  <div class="sheet" role="dialog" aria-label="목차">
+    <div class="mh"><b>목차</b>
+      <button class="icon-btn" id="menuClose" aria-label="목차 닫기"><svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="#17191C" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="ctx"><div class="k">커버스토리</div><p>청년들, 직접 체감한 청년정책을 말하다</p></div>
+    <ol id="toc">
+<li><a href="#s1"><span class="n">01</span><span class="tt">내 삶의 무게, 청년 정책이 덜어줬죠</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li><a href="#s2"><span class="n">02</span><span class="tt">입을 옷, 먹을 밥, 살 집 걱정 없도록</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li><a href="#s3"><span class="n">03</span><span class="tt">청년의 변신은 무죄</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li><a href="#s4"><span class="n">04</span><span class="tt">정책, 청년에게 더 가까이</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li><a href="#s5"><span class="n">05</span><span class="tt">오늘의 청년, 내일의 국가를 만든다</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+    </ol>
+    <div class="extra">
+      <a href="#cards" data-close><span class="tt">청년정책 카드 모아보기</span><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <button type="button" id="menuShare"><span class="tt">공유하기</span><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12M7 8l5-5 5 5M5 13v7h14v-7" stroke="#17191C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</nav>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="touch" id="touch"></div>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const REC=/[?&]record=1/.test(location.search);
+const NOINTRO=/[?&]nointro=1/.test(location.search);
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(REC) document.documentElement.classList.add('rec');
+const se=document.scrollingElement;
+
+/* progress + active section */
+const prog=$('#prog'), secs=$$('.sec'), tocLinks=$$('#toc a');
+function onScroll(){
+  const max=se.scrollHeight-innerHeight; const p=max>0?Math.min(1,Math.max(0,se.scrollTop/max)):0;
+  prog.style.transform='scaleX('+p.toFixed(4)+')';
+  let cur=0; const y=se.scrollTop+innerHeight*0.35;
+  secs.forEach((s,i)=>{ if(s.offsetTop<=y) cur=i; });
+  tocLinks.forEach((a,i)=>a.classList.toggle('on',i===cur));
+}
+addEventListener('scroll',onScroll,{passive:true}); addEventListener('resize',onScroll);
+
+/* toast + share */
+const toast=$('#toast'); let tt;
+function say(m){toast.textContent=m;toast.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('show'),1800)}
+async function share(){
+  const data={title:document.title,text:'청년들, 직접 체감한 청년정책을 말하다',url:location.href.split('?')[0]};
+  try{ if(navigator.share){await navigator.share(data);return;} await navigator.clipboard.writeText(data.url); say('링크를 복사했어요'); }catch(e){}
+}
+$('#shareBtn').addEventListener('click',share); $('#menuShare').addEventListener('click',share);
+$('#toTop').addEventListener('click',()=>scrollTo({top:0,behavior:reduce?'auto':'smooth'}));
+$('#hdrLogo').addEventListener('click',e=>{e.preventDefault();scrollTo({top:0,behavior:reduce?'auto':'smooth'})});
+
+/* menu */
+const menu=$('#menu'), menuBtn=$('#menuBtn');
+function setMenu(open){menu.classList.toggle('open',open);menu.setAttribute('aria-hidden',!open);menuBtn.setAttribute('aria-expanded',open);document.body.style.overflow=open?'hidden':''}
+menuBtn.addEventListener('click',()=>setMenu(true)); $('#menuClose').addEventListener('click',()=>setMenu(false));
+addEventListener('keydown',e=>{if(e.key==='Escape')setMenu(false)});
+$$('#menu a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const t=document.querySelector(a.getAttribute('href'));setMenu(false);setTimeout(()=>t&&t.scrollIntoView({behavior:reduce?'auto':'smooth'}),60)}));
+
+/* carousel */
+const track=$('#track'), cards=$$('#track .card'), dots=$$('#dots button');
+function cardX(i){return cards[i].offsetLeft-cards[0].offsetLeft}
+function curCard(){let b=0,d=1e9;cards.forEach((c,i)=>{const dd=Math.abs(track.scrollLeft-cardX(i));if(dd<d){d=dd;b=i}});return b}
+function upDots(){const c=curCard();dots.forEach((d,i)=>{d.classList.toggle('on',i===c);d.setAttribute('aria-current',i===c)})}
+track.addEventListener('scroll',upDots,{passive:true});
+function goCard(i,smooth=true){track.scrollTo({left:cardX(i),behavior:smooth&&!reduce?'smooth':'auto'})}
+dots.forEach((d,i)=>d.addEventListener('click',()=>goCard(i)));
+$$('.chip').forEach(c=>c.addEventListener('click',e=>{e.preventDefault();const i=+c.dataset.card;$('#cards').scrollIntoView({behavior:reduce?'auto':'smooth'});setTimeout(()=>goCard(i),reduce?0:450)}));
+
+/* intro */
+const intro=$('#intro'), lg=$('#introLogo');
+const P=id=>lg.querySelector('[data-p="'+id+'"]');
+let introAnims=[], introDone=false;
+function finishIntro(){ if(introDone) return; introDone=true; document.body.classList.remove('hide-logo'); intro.style.display='none'; onScroll(); }
+function buildIntro(){
+  const hdr=$('#hdrLogo svg').getBoundingClientRect(), box=lg.getBoundingClientRect();
+  const s=hdr.height/box.height*(box.width/box.width); const scale=hdr.width/box.width;
+  const dx=(hdr.left+hdr.width/2)-(box.left+box.width/2), dy=(hdr.top+hdr.height/2)-(box.top+box.height/2);
+  const E='cubic-bezier(.22,.61,.36,1)', B='cubic-bezier(.34,1.56,.64,1)', IO='cubic-bezier(.65,0,.35,1)';
+  const A=(el,k,o)=>{const a=el.animate(k,Object.assign({fill:'both'},o));introAnims.push(a);return a};
+  A(P('kbar'),[{transform:'scaleY(0)',transformOrigin:'50% 100%'},{transform:'scaleY(1)',transformOrigin:'50% 100%'}],{duration:380,easing:E});
+  A(P('kchev'),[{transform:'translateX(48px)',opacity:0},{transform:'none',opacity:1}],{delay:120,duration:420,easing:E});
+  A(P('g1'),[{transform:'scale(0)',transformOrigin:'0 0'},{transform:'scale(1)',transformOrigin:'0 0'}],{delay:260,duration:380,easing:E});
+  A(P('g2'),[{transform:'scale(0)',transformOrigin:'100% 100%'},{transform:'scale(1)',transformOrigin:'100% 100%'}],{delay:340,duration:380,easing:E});
+  A(P('g3'),[{transform:'scale(0)',transformOrigin:'50% 50%',fill:'#00A0E9'},{transform:'scale(1)',transformOrigin:'50% 50%',fill:'#00A0E9',offset:.45},{transform:'scale(1)',transformOrigin:'50% 50%',fill:'#00A0E9',offset:.8},{transform:'scale(1)',transformOrigin:'50% 50%',fill:'#231F20'}],{delay:460,duration:1080,easing:'linear'});
+  A(P('m2'),[{transform:'scale(0)',transformOrigin:'0 0'},{transform:'scale(1)',transformOrigin:'0 0'}],{delay:420,duration:380,easing:E});
+  A(P('m1'),[{transform:'scale(0)',transformOrigin:'0 100%'},{transform:'scale(1)',transformOrigin:'0 100%'}],{delay:500,duration:380,easing:E});
+  A(P('m3'),[{transform:'scale(0) rotate(-90deg)',transformOrigin:'50% 50%',fill:'#00A0E9'},{transform:'scale(1) rotate(0deg)',transformOrigin:'50% 50%',fill:'#00A0E9',offset:.45},{transform:'scale(1)',transformOrigin:'50% 50%',fill:'#00A0E9',offset:.75},{transform:'scale(1)',transformOrigin:'50% 50%',fill:'#231F20'}],{delay:600,duration:940,easing:'linear'});
+  A(lg,[{transform:'none'},{transform:'translate('+dx+'px,'+dy+'px) scale('+scale+')'}],{delay:1600,duration:620,easing:IO});
+  A(intro,[{backgroundColor:'rgba(255,255,255,1)'},{backgroundColor:'rgba(255,255,255,0)'}],{delay:1650,duration:560,easing:IO});
+  A($('#introSkip'),[{opacity:0},{opacity:1,offset:.3},{opacity:1,offset:.8},{opacity:0}],{delay:300,duration:1300});
+  const heroImg=$('.hero .ph-img'); if(heroImg) A(heroImg,[{transform:'scale(1.08)'},{transform:'scale(1)'}],{delay:1650,duration:1000,easing:E});
+  const heroTxt=$('.hero .txt'); A(heroTxt,[{transform:'translateY(16px)',opacity:0},{transform:'none',opacity:1}],{delay:1900,duration:600,easing:E});
+  return 2250;
+}
+let INTRO_MS=0;
+function startIntro(){
+  if(NOINTRO||reduce){ if(reduce&&!NOINTRO){intro.animate([{opacity:1},{opacity:0}],{duration:400,fill:'both'}).onfinish=finishIntro;} else finishIntro(); return; }
+  INTRO_MS=buildIntro();
+  if(REC){ introAnims.forEach(a=>a.pause()); return; }
+  setTimeout(finishIntro,INTRO_MS);
+  intro.addEventListener('click',()=>{introAnims.forEach(a=>a.finish());finishIntro()},{once:true});
+}
+(document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(()=>requestAnimationFrame(startIntro));
+
+/* record-mode API (used only to render the demo video) */
+if(REC){
+  const touch=$('#touch');
+  window.REC={
+    ready:()=>INTRO_MS>0,
+    intro(ms){ if(ms>=INTRO_MS){ introAnims.forEach(a=>{a.currentTime=Math.min(a.effect.getComputedTiming().endTime,99999)}); finishIntro(); return; } intro.style.display=''; document.body.classList.add('hide-logo'); introDone=false; introAnims.forEach(a=>a.currentTime=ms); },
+    scroll(y){ se.scrollTop=y; onScroll(); },
+    car(x){ track.scrollLeft=x; upDots(); },
+    menu(p){ const sh=menu.querySelector('.sheet'); menu.classList.toggle('open',p>0); sh.style.transition='none'; sh.style.opacity=p; sh.style.transform='translateY('+((1-p)*12)+'px)'; },
+    touch(x,y,o,sc){ touch.style.left=x+'px'; touch.style.top=y+'px'; touch.style.opacity=o; touch.style.transform='scale('+(sc||1)+')'; },
+    press(sel,on){ const el=document.querySelector(sel); if(el) el.classList.toggle('pressed',!!on); },
+    pressTxt(sel,on){ const el=document.querySelector(sel); if(el) el.classList.toggle('pressed-txt',!!on); },
+    rect(sel){ const r=document.querySelector(sel).getBoundingClientRect(); return {x:r.left,y:r.top,w:r.width,h:r.height}; },
+    abs(sel){ const el=document.querySelector(sel); const r=el.getBoundingClientRect(); return r.top+se.scrollTop; },
+    maxScroll(){ return se.scrollHeight-innerHeight; },
+    cardX
+  };
+}
+onScroll(); upDots();
+})();
+</script>
+</body>
+</html>
